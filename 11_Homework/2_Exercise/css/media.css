@@ -1,0 +1,145 @@
+@media all and (max-width: 800px){
+    .common{
+        display: flex;
+        flex-direction: column;
+        width: 540px;
+        margin: 15px auto;
+    }
+
+    header,footer{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .nav{
+        width: 100%;
+        flex: 1;
+        background-color: white;
+    }
+
+    .content{
+        order: -1;
+        background: none;
+    	background-color: white;
+    }
+
+    .list{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .img{
+    	float: none;
+        text-align: center;
+    }
+
+    .balls{
+    	width: 100%;
+        height: auto;
+    	margin: 25px 0 0 0;
+    }
+    .textContent{
+        margin: 15px 0 0 0;
+    	font-size: 16px;
+    	padding: 0;
+    }
+
+    .contentBasket{
+        order: -1;
+        background: none;
+    	background-color: white;
+    }
+
+    .contentBadminton{
+        order: -1;
+    	background: none;
+    	background-color: white;
+    }
+
+    .contentBaseball{
+        order: -1;
+    	background: none;
+    	background-color: white;
+    }
+}
+
+@media all and (max-width: 560px){
+    .common{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 15px auto;
+    }
+
+    header,footer{
+        display: none;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .nav{
+        width: 100%;
+        flex: 1;
+        background-color: white;
+    }
+
+    .content{
+        order: -1;
+        background: none;
+    	background-color: white;
+    }
+
+    .list{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .img{
+    	float: none;
+        text-align: center;
+    }
+
+    .balls{
+    	width: 100%;
+        height: auto;
+    	margin: 25px 0 0 0;
+    }
+    .textContent{
+        margin: 15px 0 0 0;
+    	font-size: 16px;
+    	padding: 0;
+    }
+
+    .contentBasket{
+        order: -1;
+        background: none;
+    	background-color: white;
+    }
+
+    .contentBadminton{
+        order: -1;
+    	background: none;
+    	background-color: white;
+    }
+
+    .contentBaseball{
+        order: -1;
+    	background: none;
+    	background-color: white;
+    }
+}

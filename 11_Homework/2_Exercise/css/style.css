@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.common{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin: 15px auto;
+}
+
+header, footer{
+    height: 35px;
+    background-color: #ADD8E6;
+    text-align: center;
+	padding-top: 15px;
+    font-size: 22px;
+	color: #0000FF;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main{
+    display: flex;
+}
+
+.nav{
+    width: 180px;
+    order: -1;
+    background-color: #F0E68C;
+}
+
+.content{
+    flex: 1;
+    background: url(../img/ballfoot.png) repeat-y top right;
+	background-color: white;
+}
+
+.hederMenu{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.list{
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.textContent{
+	margin: 0px 5px 0px 5px;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.img{
+	float: left;
+}
+
+.balls{
+	height: 170px;
+	width: 290px;
+	margin: 25px 5px 5px 25px;
+}
+
+.contentBasket{
+    flex: 1;
+	background: url(../img/ballbasket.png) repeat-y top right;
+	background-color: white;
+}
+
+.contentBadminton{
+    flex: 1;
+	background: url(../img/ballbadminton.png) repeat-y top right;
+	background-color: white;
+}
+
+.contentBaseball{
+    flex: 1;
+	background: url(../img/ballbase.png) repeat-y top right;
+	background-color: white;
+}
