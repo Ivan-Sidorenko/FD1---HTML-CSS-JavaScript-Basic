@@ -1,0 +1,156 @@
+.body {
+	background-color: #FFCCFF;
+}
+
+.heading {
+	text-align: center;
+	padding: 9px;
+}
+
+.menu {
+	line-height: 40px;
+	margin-left: 100px;
+	padding: 20px;
+}
+
+a {
+	font-weight: bolder;
+	font-size: 20px;
+    text-decoration: none; 
+}
+
+.ol1 {
+	color: #003366;
+}
+
+.ol2 {
+	color: #003333;
+}
+
+#a {
+	color: #CCCC00;
+}
+
+#b {
+	color: #CC9900;
+}
+
+#c {
+	color: #FF9933;
+}
+
+#d {
+	color: #FF9966;
+}
+
+#e {
+	color: #FF0000;
+}
+
+#f {
+	color: #CC0033;
+}
+
+#g {
+	color: #993333;
+}
+
+#h {
+	color: #663333;
+}
+
+#i {
+	color: #CC0066;
+}
+
+#g {
+	color: #FF00CC;
+}
+
+#g {
+	color: #FF99FF;
+}
+
+#j {
+	color: #CC33CC;
+}
+
+#k {
+	color: #660066;
+}
+
+#l {
+	color: #9900FF;
+}
+
+#m {
+	color: #6600FF;
+}
+
+#n {
+	color: #333366;
+}
+
+#o {
+	color: #3333CC;
+}
+
+#p {
+	color: #3366FF;
+}
+
+#q {
+	color: #0066CC;
+}
+
+#r {
+	color: #6699CC;
+}
+
+#s {
+	color: #003333;
+}
+
+#t {
+	color: #669999;
+}
+
+#u {
+	color: #3399CC;
+}
+
+#v {
+	color: #336666;
+}
+
+#w {
+	color: #006633;
+}
+
+#x {
+	color: #33CC66;
+}
+
+#y {
+	color: #66FF66;
+}
+
+#z {
+	color: #99CC99;
+}
+
+#ab {
+	color: #00CC00;
+}
+
+#bc {
+	color: #009900;
+}
+
+#cd {
+	color: #66CC33;
+}
+
+#de {
+	color: #666600;
+}

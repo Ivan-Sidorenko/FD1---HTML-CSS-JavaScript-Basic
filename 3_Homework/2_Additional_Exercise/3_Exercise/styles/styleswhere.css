@@ -1,0 +1,20 @@
+.body {
+	background-color: #CCCC99;
+}
+
+.h1 {
+	text-align: center;
+	padding: 9px;
+}
+
+#p1 {
+	text-indent: 1.5em;
+	font-size: 22px;
+	padding: 0;
+}
+
+.p {
+	font-size: 25px;
+	text-indent: 1.5em;
+	font-weight: bolder;
+}
