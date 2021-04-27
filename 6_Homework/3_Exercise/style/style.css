@@ -1,0 +1,27 @@
+#name{
+	font-size: 22px; 
+	font-weight: bolder;
+	color: black;
+}
+
+#date{
+	font-size: 16px; 
+	color: green;
+}
+
+#champion{
+	font-size: 16px; 
+	font-weight: bolder;
+	color: red;
+}
+
+#p{
+	font-size: 16px; 
+	font-weight: normal;
+	font-style: italic;
+	color: blue;
+}
+
+[href^="https://"]::before{
+	content: url(../img/extref.png)
+}

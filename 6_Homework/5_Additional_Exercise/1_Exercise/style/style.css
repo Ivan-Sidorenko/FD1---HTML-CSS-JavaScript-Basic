@@ -1,0 +1,19 @@
+.stars{
+	margin-top: 100px;
+	width: 850px;
+}
+
+.star{
+    background: url(../img/star0.png);
+    width: 75px;
+    height: 78px;
+    float: right;
+}
+
+.star:hover{
+    background: url(../img/star1.png);
+}
+
+.star:hover ~ .star:before{
+    content: url(../img/star1.png);
+}
