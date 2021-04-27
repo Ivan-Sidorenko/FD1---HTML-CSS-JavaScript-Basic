@@ -1,0 +1,56 @@
+﻿.png {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    /*background-color: palegreen;*/
+    margin: 50px auto;
+}
+
+.biohazard_png {
+    width: 200px;
+    height: 200px;
+    background: url(../img/biohazard.png);
+    position: absolute;
+    top: 25px;
+}
+
+.biohazard_png:hover {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.man_and_woman_png {
+    width: 200px;
+    height: 223px;
+    background: url(../img/Man-and-woman.png);
+    position: absolute;
+    left: 220px;
+}
+
+.man_and_woman_png:hover {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.yin_and_yang_png {
+    width: 200px;
+    height: 200px;
+    background: url(../img/Yin_and_Yang.png);
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+
+.yin_and_yang_png:hover {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.no_smoking_png {
+    width: 256px;
+    height: 256px;
+    background: url(../img/No_smoking.png);
+    position: absolute;
+    top: 58px;
+    left: 78px;
+}
