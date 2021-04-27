@@ -1,0 +1,64 @@
+.body{
+	background-color: #BDB76B;
+}
+
+.text{
+	text-align: center;
+	padding: 20px;
+}
+
+.instruction{
+	color: #008080;
+	font-size: 24px;
+	text-align:top;
+}
+
+.ground{
+	background: #BC8F8F;
+}
+
+.textConrat{
+	text-align: center;
+	padding: 50px;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #483D8B;
+}
+
+.line{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.bodyGround{
+	background-color: #90EE90;
+	color: #483D8B;
+	
+}
+
+.groundDiv{
+	margin-left: auto;
+    margin-right: auto;
+	padding: 70px;
+	background-image: url(../img/ball.webp);
+	width: 400px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.textDiv{
+	text-align: center;
+	padding: 45px;
+	font-weight: bolder;
+	font-size: 24px;
+	text-shadow: 	
+	#FF69B4 1px 1px 0, #FF69B4 -1px 3px 0,
+	#FF69B4 -1px 3px 0, #FF69B4 1px 1px 0;
+}
+
+.lineBall{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}

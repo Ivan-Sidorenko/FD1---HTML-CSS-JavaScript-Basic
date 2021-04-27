@@ -1,0 +1,17 @@
+.background{
+	background: url(../img/topleft.png) no-repeat top left,
+				url(../img/topright.png) no-repeat top right,
+				url(../img/bottomleft.png) no-repeat bottom left,
+				url(../img/bottomright.png) no-repeat bottom right,
+				url(../img/leftcenter.png) repeat-y left,
+				url(../img/rightcenter.png) repeat-y right,
+				url(../img/topcenter.png) repeat-x top,
+				url(../img/bottomcenter.png) repeat-x bottom;
+}
+
+.text{
+	text-align: center;
+	padding: 50px 50px;
+	font-size: 22px; 
+	color: #006400;
+}

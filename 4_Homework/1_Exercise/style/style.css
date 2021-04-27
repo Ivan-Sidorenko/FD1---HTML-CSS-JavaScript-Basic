@@ -1,0 +1,38 @@
+.leftCenter{
+	background: url(../img/leftcenter.png) repeat-y left;
+}
+
+.rightCenter{
+	background: url(../img/rightcenter.png) repeat-y right;
+}
+
+.topCenter{
+	background: url(../img/topcenter.png) repeat-x top;
+}
+
+.bottomCenter{
+	background: url(../img/bottomcenter.png) repeat-x bottom;
+}
+
+.topLeft{
+	background: url(../img/topleft.png) no-repeat top left;
+}
+
+.topRight{
+	background: url(../img/topright.png) no-repeat top right;
+}
+
+.bottomLeft{
+	background: url(../img/bottomleft.png) no-repeat bottom left;
+}
+
+.bottomRight{
+	background: url(../img/bottomright.png) no-repeat bottom right;
+}
+
+.text{
+	text-align: center;
+	padding: 50px 50px;
+	font-size: 22px; 
+	color: #006400;
+}
