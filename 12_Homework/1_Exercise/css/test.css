@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    border: 5px solid #008B8B;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    transition-duration: 2s;
+}
+
+.wrap:hover{
+    border: 20px solid #A52A2A;
+    background-color: chocolate;
+}
+
+.wrap:hover .one{
+    border: 15px solid #C71585;
+    border-radius: 10%;
+}
+
+.wrap:hover .hello{
+    color: blue;
+    transform: skew(17deg,-13deg);
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.wrap:hover .two{
+    border: 1px solid #FF6347;
+    border-radius: 50%;
+}
+
+.wrap:hover .world{
+    color: red;
+    transform: rotate(100deg);
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.wrap:hover .three{
+    width: 300px;
+    height: 300px;
+    border: 25px solid #8A2BE2;
+    border-radius: 5%;
+    background-color: rgba(100, 148, 237, 0.329);
+}
+
+.wrap:hover .how{
+    margin: 30px 0 0 0;
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.wrap:hover .four{
+    border: 1px solid #75817563;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.wrap:hover .super{
+    transform: rotate(90deg);
+    margin: -50px 0 0 0;
+    font-size: 70px;
+    color: brown;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.one{
+    border: 5px solid #C71585;
+    border-radius: 20%;
+    background-color: #FF69B4;
+    transition-duration: 2s;
+}
+
+.two{
+    border: 5px solid #FF6347;
+    border-radius: 30%;
+    background-color: #FFA07A;
+    transition-duration: 2s;
+}
+
+.three{
+    border: 5px solid #8A2BE2;
+    border-radius: 40%;
+    background-color: #6495ED;
+    transition-duration: 2s;
+}
+
+.four{
+    border: 5px solid #008000;
+    border-radius: 50%;
+    background-color: #00FF7F;
+    transition-duration: 2s;
+}
+
+.text{
+    margin: 75px 0 0 0;
+    font-size: 30px;
+}
+
+.hello{
+    font-weight: 700;
+    transform: skew(-75deg,39deg);
+    transition-duration: 2s;
+    color: white;
+}
+
+.world{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 60px 0 0 0;
+    transform: rotate(270deg);
+    transition-duration: 2s;
+}
+
+.how{
+    color: hotpink;
+    margin: 60px 0 0 0;
+    transition-duration: 2s;
+}
+
+.super{
+    transform: rotate(180deg);
+    color: lightseagreen;
+    transition-duration: 2s;
+}
