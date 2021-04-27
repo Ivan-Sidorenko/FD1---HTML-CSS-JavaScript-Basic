@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Общий блок сайта*/
+.wraper{
+	width: 70%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.menuContent{
+	background-color: #F0E68C;
+}
+
+.heder{
+	background-color: #ADD8E6;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 22px;
+	color: #0000FF;
+}
+
+.menu{
+	width: 180px;
+	float: left;
+}
+
+.content{
+	background: url(../img/ballfoot.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.footer{
+	background-color: #ADD8E6;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 22px;
+	color: #0000FF;
+}
+
+.clear{
+	clear: both;
+}
+
+/*Наполнение меню*/
+.hederMenu{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.list{
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.listList{
+	margin-top: 20px;
+}
+
+/*Наполнение контента*/
+.textContent{
+	margin: 0px 5px 0px 5px;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.img{
+	float: left;
+}
+
+.balls{
+	height: 170px;
+	width: 290px;
+	margin: 25px 5px 5px 25px;
+}
+
+.contentBasket{
+	background: url(../img/ballbasket.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.contentBadminton{
+	background: url(../img/ballbadminton.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.contentBaseball{
+	background: url(../img/ballbase.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.contentVolleyball{
+	background: url(../img/ballvolley.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.contentHandball{
+	background: url(../img/ballhand.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+.contentGolf{
+	background: url(../img/ballgolf.png) repeat-y top right;
+	padding: 20px;
+	padding: 0;
+	margin-left: 180px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+*{
+	margin: 5px;
+	padding: 0;
+}
+
+.background{
+	margin: 0;
+}
+
+.table{
+	margin: auto;
+	border-spacing: 0;
+	width: 70%;
+	height: 70%;
+}
+
+.topBottom{
+	background-color: #ADD8E6;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 22px;
+	color: #0000FF;
+}
+
+.bottom{
+	padding: 20px 0px;
+}
+
+.sidebar{
+	vertical-align: text-top;
+	width: 180px;
+	background-color: #F0E68C;
+}
+
+.heder{
+	margin-top: 20px;
+	font-size: bolder;
+}
+
+
+.listList{
+	margin-top: 20px;
+}
+
+.list{
+	margin-left: 20px;
+}
+
+.ballfoot{
+	background: url(../img/ballfoot.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballbasket{
+	background: url(../img/ballbasket.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballbadminton{
+	background: url(../img/ballbadminton.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballbase{
+	background: url(../img/ballbase.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballvolley{
+	background: url(../img/ballvolley.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballhand{
+	background: url(../img/ballhand.png) repeat-y top right;
+	padding: 20px;
+}
+
+.ballgolf{
+	background: url(../img/ballgolf.png) repeat-y top right;
+	padding: 20px;
+	vertical-align: text-top;
+}
+
+.balls{
+	height: 170px;
+	width: 290px;
+	margin-right: 5px;
+}
+
+.sport{
+	float: left;
+}
+
+.maintext{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

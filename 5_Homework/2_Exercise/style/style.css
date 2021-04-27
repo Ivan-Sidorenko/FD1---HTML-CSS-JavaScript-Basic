@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cards1{
+	background-image: url(../img/cards.png);
+	background-repeat: no-repeat;
+    background-position: -142px -192px;
+    width: 140px; 
+	height: 190px;
+}
+
+.cards2{
+	background-image: url(../img/cards.png);
+	background-repeat: no-repeat;
+    background-position: -430px -581px;
+    width: 140px; 
+	height: 190px;
+	margin-top: -150px;
+	margin-left: 50px;
+}
+
+.cards3{
+	background-image: url(../img/cards.png);
+	background-repeat: no-repeat;
+    background-position: -286px -1357px;
+    width: 140px; 
+	height: 190px;
+	margin-top: -150px;
+	margin-left: 100px;
+}
