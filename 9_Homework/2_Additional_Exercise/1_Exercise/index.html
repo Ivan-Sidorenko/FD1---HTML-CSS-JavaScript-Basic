@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>form</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="forms">
+			<div class="conteiner">
+				<div class="block_one">
+					<ul>
+						<li>
+							<h3>Простая форма поиска с вариантами:</h3>
+							<div class="form_one">
+								<form action="http://fe.it-academy.by/TestForm.php" method="get">
+									<fieldset class="form_one_file">
+										<legend class="form_one_legend">Строка поиска</legend>
+										<div class="form_one_content_fieldset">
+											<input type="text" name="search_line" maxlength="10">
+											<button type="submit">Искать</button>
+											<div class="form_one_distance_up">
+												<label>
+													<input type="radio" checked name="answer" value="1-on the site"> на сайте
+												</label>
+												<label>
+													<input type="radio" name="answer" value="2-on google"> в google
+												</label>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_two">
+					<ul>
+						<li>
+							<h3>Простая форма поиска с вариантами:</h3>
+							<div class="form_two">
+								<form action="http://fe.it-academy.by/TestForm.php" method="get">
+									<fieldset class="form_two_file">
+										<legend class="form_two_legend">Строка поиска</legend>
+										<div class="form_two_content_fieldset">
+											<input type="text" autofocus required name="search_line">*
+											<button type="submit">Искать</button>
+											<div class="form_two_distance_up">
+												<label>
+													<input type="radio" name="answer" value="1-on the site"> на сайте
+												</label>
+												<label>
+													<input type="radio" checked name="answer" value="2-on google"> в google
+												</label>
+												<p class="form_two_p">* - <i>обязательное поле</i></p>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_three">
+					<ul>
+						<li>
+							<h3>Простая форма авторизации:</h3>
+							<div class="form_three">
+								<form action="http://fe.it-academy.by/TestForm.php" method="post">
+									<fieldset class="form_three_file">
+										<legend class="form_three_legend">Авторизируйтесь</legend>
+										<div class="form_three_content_fieldset">
+											<div class="form_three_login">
+												<input type="text" required name="login" class="form_three_login_size"> * Логин
+											</div>
+											<div class="form_three_password">
+												<input type="password" required name="password" class="form_three_password_size"> * Пароль
+											</div>
+											<div class="form_three_distance_up">
+												<label>
+													<input type="checkbox" name="check" value="Yes"> Оставаться в системе
+												</label>
+												<br>
+												<button type="submit">Войти</button>
+												<p class="form_three_p">* - <i>обязательное поле</i></p>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_four">
+					<ul>
+						<li>
+							<h3>Опрос (голосование):</h3>
+							<div class="form_four">
+								<form action="http://fe.it-academy.by/TestForm.php" method="get">
+									<fieldset class="form_four_file">
+										<legend class="form_four_legend">Как вам?</legend>
+										<div class="form_four_content_fieldset">
+											<div class="form_four_login">
+												<ul>
+													<li>
+														<label>
+															<input type="radio" checked name="answer" value="1-nothing"> ничего
+														</label>
+													</li>
+													<li>
+														<label>
+															<input type="radio" name="answer" value="2-not bad"> неплохо
+														</label>
+													</li>
+													<li>
+														<label>
+															<input type="radio" name="answer" value="3-good"> хорошо
+														</label>
+													</li>
+													<li>
+														<label>
+															<input type="radio" name="answer" value="4-super"> супер
+														</label>
+														<label>
+															<input type="hidden" name="date_voite" value="2013.12.31">
+														</label>
+													</li>
+													<li>
+														<button type="submit">Отправить</button>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_five">
+					<ul>
+						<li>
+							<h3>Отзыв:</h3>
+							<div class="form_five">
+								<form action="http://fe.it-academy.by/TestForm.php" method="post">
+									<fieldset class="form_five_file">
+										<legend class="form_five_legend">Оставьте Ваш отзыв</legend>
+										<div class="form_five_content_fieldset">
+											<div class="form_five_login">
+												<input type="text" required name="name" class="form_five_name_size"> * Имя
+											</div>
+											<div class="form_five_password">
+												<input type="text" required name="email" class="form_five_email_size"> * e-mail
+											</div>
+											<div class="form_five_comment">
+												<textarea name="comment" class="form_five_comment_text">Форма отправки</textarea>
+											</div>
+											<div class="form_five_distance_up">
+												<button type="submit">Отправить</button>
+												<p class="form_five_p">* - <i>обязательное поле</i></p>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_six">
+					<ul>
+						<li>
+							<h3>Выпадающий и мульти списки:</h3>
+							<div class="form_six">
+								<form action="http://fe.it-academy.by/TestForm.php" method="get">
+									<fieldset class="form_six_file">
+										<legend class="form_six_legend">Города РБ</legend>
+										<select name="heading" size="1" class="form_six_select">
+											<optgroup label="Города">
+												<option value="0"></option>
+											</optgroup>
+											<optgroup label="Города РБ">
+												<option value="1">Брест</option>
+												<option value="2">Минск</option>
+												<option value="3">Витебск</option>
+											</optgroup>
+											<optgroup label="Города России">
+												<option value="4">Москва</option>
+												<option value="5">Рязань</option>
+												<option value="6">Магадан</option>
+											</optgroup>
+										</select>
+										<button type="submit">ОК</button>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_seven">
+					<ul>
+						<li>
+							<h3>Загрузка файла на сервер:</h3>
+							<div class="form_seven">
+								<form enctype="multipart/form-data" action="http://fe.it-academy.by/TestForm.php" method="post">
+									<fieldset class="form_seven_file">
+										<legend class="form_seven_legend">Upload</legend>
+										<div class="form_seven_content">
+											<p class="p_text">Файл:</p>
+											<input type="file" name="Choose File" title="Choose File" class="choose">
+											<p class="p_text">Срок хранения (года):</p>
+											<input type="number" required name="year" class="form_seven_name_year">
+											<input type="submit" value="загрузить">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="block_eight">
+					<ul>
+						<li>
+							<h3>Валидация данных HTML5:</h3>
+							<div class="form_eight">
+								<form enctype="multipart/form-data" action="http://fe.it-academy.by/TestForm.php" method="post">
+									<fieldset class="form_eight_file">
+										<legend class="form_eight_legend">Строка поиска</legend>
+										<div class="form_eight_content">
+											<input type="text" pattern="^[А-Яа-яЁё\s]+$" required name="year" class="form_eight_name_text" value="Только русские буквы">
+											<input type="tel" pattern="[+]{1}[0-9]{3}-[0-9]{2}-[0-9]{7}" required name="phone" class="form_eight_name_number" value="+ХХХ-ХХ-ХХХХХХХ">
+											<br>
+											<input type="submit" value="проверить" class="form_eight_submit">
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		</body>
+	</html>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>training</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+	<body>
+		<div class="form">
+			<form action="http://fe.it-academy.by/TestForm.php" method="get" class="">
+				Для публикации вашей статьи, заполните пожалуйста следующую форму:
+				<br>
+				<br>
+				
+				<div class="content">
+					
+					<div class="title">
+						<div class="article_title">Название статьи:</div>
+						<div class="content_title">
+							<input type="text" name="article title" class="input_title">
+							<br>
+						</div>
+					</div>
+					
+					<div class="heading">
+						<div class="article_heading">Рубрика:</div>
+						<div class="content_heading">
+							<select name="heading" size="1" class="input_heading">
+								<option value="0"></option>
+								<option value="1">компьютерные технологии</option>
+								<option value="2">3D моделирование</option>
+								<option value="3">программирование</option>
+								<option value="4">тестирование</option>
+								<option value="5">обеспечение качества</option>
+							</select>
+						</div>
+					</div>	
+						
+					<div class="publication">
+						<div class="article_publication">Публикация:</div>
+						<ul class="content_publication">
+							<li class="input_publication_answer_one">
+								<input type="radio" name="answer" value="1">
+							</li>
+							<li class="input_publication_one">на сайте</li>
+							
+							<li class="input_publication_answer_two">
+								<input type="radio" name="answer" value="2" class="input_publication">
+							</li>
+							<li class="input_publication_two">в журнале</li>
+							
+							<li class="input_publication_answer_three">
+								<input type="radio" name="answer" value="3" class="input_publication">
+							</li>
+							<li class="input_publication_three">на сайте и в журнале</li>
+						</ul>
+					</div>
+						
+					<div class="allow">
+						<div class="article_allow">Разрешить комментарии:</div>
+							<p class="input_article_allow">
+								<input type="checkbox" name="check mark" value="Yes">
+							</p>
+					</div>
+						
+					<div class="comment">
+						<textarea name="article text" class="comment_article_text"></textarea>
+					</div>
+					
+					<div class="send">
+						<input type="submit" name="publish" value="Опубликовать">
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

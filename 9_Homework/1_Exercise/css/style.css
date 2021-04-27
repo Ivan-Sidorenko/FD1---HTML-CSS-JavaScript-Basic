@@ -1,0 +1,114 @@
+body{
+	width: 80%;
+	margin: 50px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 3px double red;
+	padding: 10px;
+}
+
+/*title*/
+
+.title{
+	width: 100%;
+	margin-top: 5px;
+	padding-left: 7px;
+}
+
+.title .article_title{
+	width: 180px;
+}
+
+.title .content_title{
+	width: 81%;
+	margin-top: -22px;
+	margin-left: 18%;
+}
+
+.title .input_title{
+	width: 99.5%;
+}
+
+
+/*heading*/
+
+.heading{
+	width: 100%;
+	margin-top: 5px;
+	padding-left: 7px;
+}
+
+.heading .article_heading{
+	width: 180px;
+}
+
+.heading .content_heading{
+	width: 81%;
+	margin-top: -21px;
+	margin-left: 18%;
+}
+
+.heading .input_heading{
+	width: 100%;
+}
+
+
+/*publication*/
+
+.publication{
+	margin-top: 5px;
+	padding-left: 7px;
+}
+
+.publication .article_publication{
+	width: 180px;
+	float: left;
+}
+
+.publication ul{
+	margin-left: 18%;
+    margin-top: 5px;
+	padding-left: 0;
+}
+
+.publication ul li{
+	display: inline-block;
+}
+
+
+/*allow*/
+
+.allow{
+	padding-left: 7px;
+}
+
+.allow .article_allow{
+	width: 180px;
+	float: left;
+}
+
+.allow .input_article_allow{
+	margin-left: 18%;
+	margin-top: -12px;
+}
+
+
+/*comment*/
+
+.comment{
+	padding-left: 7px;
+}
+
+.comment .comment_article_text{
+	margin-top: -9px;
+	width: 99%;
+	height: 40px;
+}
+
+
+/*send*/
+
+.send{
+	margin-top: 5px;
+	padding-left: 7px;
+}

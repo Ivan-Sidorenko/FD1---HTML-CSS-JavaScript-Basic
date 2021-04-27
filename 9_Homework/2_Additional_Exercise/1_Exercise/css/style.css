@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 1000px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.conteiner {
+    width: 735px;
+    margin: 0 auto;
+}
+
+.forms {
+    margin-top: 30px;
+}
+
+/*block_one*/
+.block_one {
+    width: 350px;
+    height: 155px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_one .form_one_file {
+    height: 105px;
+}
+
+.form_one .form_one_legend, .form_one_content_fieldset {
+    margin: 7px 10px;
+}
+
+.form_one .form_one_distance_up {
+    margin-top: 5px;
+}
+
+/*block_two*/
+.block_two {
+    width: 350px;
+    height: 155px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_two .form_two_file {
+    height: 105px;
+}
+
+.form_two .form_two_legend, .form_two_content_fieldset {
+    margin: 7px 10px;
+}
+
+.form_two .form_two_distance_up, form_two_p {
+    margin-top: 5px;
+}
+
+/*block_three*/
+.block_three {
+    width: 350px;
+    height: 195px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_three .form_three_file {
+    height: 145px;
+}
+
+.form_three .form_three_legend, .form_three_content_fieldset {
+    margin: 7px 10px;
+}
+
+.form_three .form_three_login {
+    margin-bottom: 5px;
+}
+
+.form_three .form_three_login_size {
+    width: 220px;
+}
+
+.form_three .form_three_password_size {
+    width: 220px;
+}
+
+.form_three .form_three_distance_up, form_three_p {
+    margin-top: 5px;
+}
+
+/*block_four*/
+.block_four {
+    width: 350px;
+    height: 195px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_four .form_four_file {
+    height: 145px;
+}
+
+.form_four .form_four_legend, .form_four_content_fieldset {
+    margin: 7px 10px;
+}
+
+.form_four .form_four_login {
+    margin-bottom: 5px;
+}
+
+.form_four .form_four_login_size {
+    width: 220px;
+}
+
+.form_four .form_four_password_size {
+    width: 220px;
+}
+
+.form_four .form_four_distance_up, form_four_p {
+    margin-top: 5px;
+}
+
+/*block_five*/
+.block_five {
+    width: 350px;
+    height: 240px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.block_five .form_five_file {
+    height: 190px;
+}
+
+.form_five .form_five_legend, .form_five_content_fieldset {
+    margin: 7px 10px;
+}
+
+.form_five .form_five_login {
+    margin-bottom: 5px;
+}
+
+.form_five .form_five_name_size {
+    width: 220px;
+}
+
+.form_five .form_five_email_size {
+    width: 220px;
+}
+
+.form_five .form_five_comment_text {
+    width: 220px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.form_five .form_five_distance_up, form_five_p {
+    margin-top: 5px;
+}
+
+/*block_six*/
+.block_six {
+    width: 350px;
+    height: 240px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.form_six .form_six_legend, .form_six_select {
+    margin: 7px 10px;
+}
+
+.block_six .form_six_file {
+    height: 190px;
+}
+
+.block_six .form_six_select {
+    width: 220px;
+}
+
+/*block_seven*/
+.block_seven {
+    width: 350px;
+    height: 240px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.form_seven .form_seven_legend, .form_seven_content {
+    margin: 7px 10px;
+}
+
+.block_seven .p_text, .choose {
+    margin-bottom: 5px;
+}
+
+.block_seven .form_seven_file {
+    height: 190px;
+}
+
+.block_seven .form_seven_name_year {
+    width: 70px;
+}
+
+/*block_eight*/
+.block_eight {
+    width: 350px;
+    height: 240px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.form_eight .form_eight_legend, .form_eight_content {
+    margin: 7px 10px;
+}
+
+.block_eight .form_eight_file {
+    height: 190px;
+}
+
+.form_eight_name_text {
+    width: 220px;
+    margin-bottom: 5px;
+}
+
+.form_eight_submit {
+    margin-top: 5px;
+}
